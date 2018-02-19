@@ -4,7 +4,12 @@
 //
 
 #import "BarcodeScannerViewManager.h"
-#import "RNBSG-Swift.h"
+//#import "CameraViewController.h"
+#import "BarcodeScannerView.h"
+
+//@interface BarcodeScannerViewManager()
+//@property(strong) CameraViewController* cameraViewController;
+//@end
 
 @implementation BarcodeScannerViewManager
 
@@ -15,7 +20,9 @@ RCT_EXPORT_VIEW_PROPERTY(barcodeTypes, NSInteger)
 
 - (UIView *) view
 {
-  return [[BarcodeScannerView alloc] init];
+//    self.cameraViewController = [[CameraViewController alloc] init];
+//    return self.cameraViewController.view;
+    return [BarcodeScannerView new];
 }
 
 @end

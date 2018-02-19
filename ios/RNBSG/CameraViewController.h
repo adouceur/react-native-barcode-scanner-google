@@ -1,12 +1,12 @@
 /*
- Copyright 2017 Google Inc.
-
+ Copyright 2016-present Google Inc. All Rights Reserved.
+ 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
  You may obtain a copy of the License at
-
+ 
  http://www.apache.org/licenses/LICENSE-2.0
-
+ 
  Unless required by applicable law or agreed to in writing, software
  distributed under the License is distributed on an "AS IS" BASIS,
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,22 +15,11 @@
  */
 
 @import UIKit;
-@import AVFoundation;
-#import "GoogleMobileVision.h"
+#import <React/RCTComponent.h>
 
 // View controller demonstraing how to use the barcode detector with the AVFoundation
 // video pipeline.
 @interface CameraViewController : UIViewController
 
-@property(nonatomic, assign) UIDeviceOrientation lastKnownDeviceOrientation;
-//@property(nonatomic, strong) GMVDetector *barcodeDetector;
-@property(nonatomic, strong) AVCaptureSession *session;
-@property(nonatomic, strong) AVCaptureVideoPreviewLayer *previewLayer;
-
-- (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection;
-
-- (void)updateCameraSelection;
-- (void)setUpVideoProcessing;
-- (void)setUpCameraPreview;
-
 @end
+

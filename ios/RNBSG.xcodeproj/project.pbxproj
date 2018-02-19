@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		742936551FF4EC0F00865B79 /* DrawingUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 742936521FF4EC0F00865B79 /* DrawingUtility.m */; };
-		742936561FF4EC0F00865B79 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742936531FF4EC0F00865B79 /* CameraViewController.m */; };
-		742FA3FD1FF308B20020E004 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742FA3FC1FF308B20020E004 /* BarcodeScannerView.swift */; };
+		519E8223203B5C2900F5F5CC /* BarcodeScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E8222203B5C2900F5F5CC /* BarcodeScannerView.m */; };
 		742FA4741FF378CA0020E004 /* BarcodeScannerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 742FA4721FF378CA0020E004 /* BarcodeScannerViewManager.m */; };
-		746A820A1FF6E56B00F7BB93 /* BarcodeScannerChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A82091FF6E56B00F7BB93 /* BarcodeScannerChildViewController.swift */; };
-		74B237791FF9835800667B23 /* BarcodeScannerViewObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B237781FF9835800667B23 /* BarcodeScannerViewObjC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,24 +24,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		519E8221203B5C2900F5F5CC /* BarcodeScannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarcodeScannerView.h; sourceTree = "<group>"; };
+		519E8222203B5C2900F5F5CC /* BarcodeScannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarcodeScannerView.m; sourceTree = "<group>"; };
 		740693BA1FF2EFA400F8D155 /* libRNBSG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBSG.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		742936511FF4EC0E00865B79 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		742936521FF4EC0F00865B79 /* DrawingUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingUtility.m; sourceTree = "<group>"; };
 		742936531FF4EC0F00865B79 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
-		742936541FF4EC0F00865B79 /* DrawingUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingUtility.h; sourceTree = "<group>"; };
 		742936571FF4ED8600865B79 /* GMVFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMVFeature.h; path = ../../../../ios/Pods/GoogleMobileVision/Detector/Frameworks/frameworks/GoogleMobileVision.framework/Headers/GMVFeature.h; sourceTree = "<group>"; };
 		742936581FF4ED8600865B79 /* GoogleMobileVision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoogleMobileVision.h; path = ../../../../ios/Pods/GoogleMobileVision/Detector/Frameworks/frameworks/GoogleMobileVision.framework/Headers/GoogleMobileVision.h; sourceTree = "<group>"; };
 		742936591FF4ED8700865B79 /* GMVUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMVUtility.h; path = ../../../../ios/Pods/GoogleMobileVision/Detector/Frameworks/frameworks/GoogleMobileVision.framework/Headers/GMVUtility.h; sourceTree = "<group>"; };
 		7429365A1FF4ED8700865B79 /* GMVDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMVDetector.h; path = ../../../../ios/Pods/GoogleMobileVision/Detector/Frameworks/frameworks/GoogleMobileVision.framework/Headers/GMVDetector.h; sourceTree = "<group>"; };
 		7429365B1FF4ED8700865B79 /* GMVDetectorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GMVDetectorConstants.h; path = ../../../../ios/Pods/GoogleMobileVision/Detector/Frameworks/frameworks/GoogleMobileVision.framework/Headers/GMVDetectorConstants.h; sourceTree = "<group>"; };
-		742FA3FB1FF308B10020E004 /* RNBSG-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNBSG-Bridging-Header.h"; sourceTree = "<group>"; };
-		742FA3FC1FF308B20020E004 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		742FA4721FF378CA0020E004 /* BarcodeScannerViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeScannerViewManager.m; sourceTree = "<group>"; };
 		742FA4731FF378CA0020E004 /* BarcodeScannerViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeScannerViewManager.h; sourceTree = "<group>"; };
-		74356D601FF5073800AB5A96 /* GMVBD.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GMVBD.storyboard; sourceTree = "<group>"; };
-		746A82091FF6E56B00F7BB93 /* BarcodeScannerChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerChildViewController.swift; sourceTree = "<group>"; };
-		74B237771FF9835800667B23 /* BarcodeScannerViewObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarcodeScannerViewObjC.h; sourceTree = "<group>"; };
-		74B237781FF9835800667B23 /* BarcodeScannerViewObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarcodeScannerViewObjC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +68,6 @@
 		740693BC1FF2EFA400F8D155 /* RNBSG */ = {
 			isa = PBXGroup;
 			children = (
-				74356D601FF5073800AB5A96 /* GMVBD.storyboard */,
 				7429365A1FF4ED8700865B79 /* GMVDetector.h */,
 				7429365B1FF4ED8700865B79 /* GMVDetectorConstants.h */,
 				742936571FF4ED8600865B79 /* GMVFeature.h */,
@@ -86,15 +75,10 @@
 				742936581FF4ED8600865B79 /* GoogleMobileVision.h */,
 				742936511FF4EC0E00865B79 /* CameraViewController.h */,
 				742936531FF4EC0F00865B79 /* CameraViewController.m */,
-				742936541FF4EC0F00865B79 /* DrawingUtility.h */,
-				742936521FF4EC0F00865B79 /* DrawingUtility.m */,
+				519E8221203B5C2900F5F5CC /* BarcodeScannerView.h */,
+				519E8222203B5C2900F5F5CC /* BarcodeScannerView.m */,
 				742FA4731FF378CA0020E004 /* BarcodeScannerViewManager.h */,
 				742FA4721FF378CA0020E004 /* BarcodeScannerViewManager.m */,
-				742FA3FC1FF308B20020E004 /* BarcodeScannerView.swift */,
-				742FA3FB1FF308B10020E004 /* RNBSG-Bridging-Header.h */,
-				746A82091FF6E56B00F7BB93 /* BarcodeScannerChildViewController.swift */,
-				74B237771FF9835800667B23 /* BarcodeScannerViewObjC.h */,
-				74B237781FF9835800667B23 /* BarcodeScannerViewObjC.m */,
 			);
 			path = RNBSG;
 			sourceTree = "<group>";
@@ -156,12 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				742936561FF4EC0F00865B79 /* CameraViewController.m in Sources */,
+				519E8223203B5C2900F5F5CC /* BarcodeScannerView.m in Sources */,
 				742FA4741FF378CA0020E004 /* BarcodeScannerViewManager.m in Sources */,
-				746A820A1FF6E56B00F7BB93 /* BarcodeScannerChildViewController.swift in Sources */,
-				742FA3FD1FF308B20020E004 /* BarcodeScannerView.swift in Sources */,
-				74B237791FF9835800667B23 /* BarcodeScannerViewObjC.m in Sources */,
-				742936551FF4EC0F00865B79 /* DrawingUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
