@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		516EED632065B46200A79C4B /* BarcodeScannerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 516EED622065B46200A79C4B /* BarcodeScannerModule.m */; };
 		519E8223203B5C2900F5F5CC /* BarcodeScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 519E8222203B5C2900F5F5CC /* BarcodeScannerView.m */; };
 		742FA4741FF378CA0020E004 /* BarcodeScannerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 742FA4721FF378CA0020E004 /* BarcodeScannerViewManager.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		516EED612065B46200A79C4B /* BarcodeScannerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarcodeScannerModule.h; sourceTree = "<group>"; };
+		516EED622065B46200A79C4B /* BarcodeScannerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarcodeScannerModule.m; sourceTree = "<group>"; };
 		519E8221203B5C2900F5F5CC /* BarcodeScannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarcodeScannerView.h; sourceTree = "<group>"; };
 		519E8222203B5C2900F5F5CC /* BarcodeScannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarcodeScannerView.m; sourceTree = "<group>"; };
 		740693BA1FF2EFA400F8D155 /* libRNBSG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBSG.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +80,8 @@
 				742936531FF4EC0F00865B79 /* CameraViewController.m */,
 				519E8221203B5C2900F5F5CC /* BarcodeScannerView.h */,
 				519E8222203B5C2900F5F5CC /* BarcodeScannerView.m */,
+				516EED612065B46200A79C4B /* BarcodeScannerModule.h */,
+				516EED622065B46200A79C4B /* BarcodeScannerModule.m */,
 				742FA4731FF378CA0020E004 /* BarcodeScannerViewManager.h */,
 				742FA4721FF378CA0020E004 /* BarcodeScannerViewManager.m */,
 			);
@@ -142,6 +147,7 @@
 			files = (
 				519E8223203B5C2900F5F5CC /* BarcodeScannerView.m in Sources */,
 				742FA4741FF378CA0020E004 /* BarcodeScannerViewManager.m in Sources */,
+				516EED632065B46200A79C4B /* BarcodeScannerModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

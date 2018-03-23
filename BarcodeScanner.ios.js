@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { requireNativeComponent } from 'react-native';
+import { requireNativeComponent, NativeModules } from 'react-native';
 import PropTypes from 'prop-types'
 
 const BCTArray = [
@@ -67,5 +67,8 @@ BarcodeScanner.propTypes = {
 };
 
 const NativeBarcodeScanner = requireNativeComponent('BarcodeScannerView', BarcodeScanner);
+
+export const toggleFlashOn = NativeModules.BarcodeScannerModule.toggleFlashOn;
+export const toggleFlashOff = NativeModules.BarcodeScannerModule.toggleFlashOff;
 
 export default BarcodeScanner;

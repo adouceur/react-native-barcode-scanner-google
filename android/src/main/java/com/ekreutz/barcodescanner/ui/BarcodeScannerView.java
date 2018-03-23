@@ -179,6 +179,17 @@ public class BarcodeScannerView extends ViewGroup implements CameraSource.AutoFo
         }
     }
 
+    public void toggleFlashOn() {
+        if (mCameraSource != null) {
+            mCameraSource.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
+        }
+    }
+
+    public void toggleFlashOff() {
+        if (mCameraSource != null) {
+            mCameraSource.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
+        }
+    }
     /**
      * Releases the resources associated with the camera source, the associated detectors, and the
      * rest of the processing pipeline.

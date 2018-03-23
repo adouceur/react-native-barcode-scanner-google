@@ -93,6 +93,28 @@ public class BarcodeScannerModule extends ReactContextBaseJavaModule implements 
             promise.reject("3", "Attempted to PAUSE barcode scanner before scanner view was instantiated.");
     }
 
+    @ReactMethod
+    public void toggleFlashOn(Promise promise) {
+        BarcodeScannerView view = mBarcodeScannerManager.getBarcodeScannerView();
+        if (view != null) {
+            view.toggleFlashOn();
+            promise.resolve(null);
+        } else {
+            promise.reject("3", "Attempted to USE FLASH on barcode scanner before scanner view was instantiated.");
+        }
+    }
+
+    @ReactMethod
+    public void toggleFlashOff(Promise promise) {
+        BarcodeScannerView view = mBarcodeScannerManager.getBarcodeScannerView();
+        if (view != null) {
+            view.toggleFlashOff();
+            promise.resolve(null);
+        } else {
+            promise.reject("3", "Attempted to USE FLASH on barcode scanner before scanner view was instantiated.");
+        }
+    }
+
     /* ----------------------------------------------
      * ------------- Lifecycle events ---------------
      * ---------------------------------------------- */

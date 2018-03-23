@@ -97,4 +97,7 @@ export const Exception = { LOW_STORAGE: LOW_STORAGE_EXCEPTION, NOT_OPERATIONAL: 
 export const pauseScanner = scannerModule.pause;
 export const resumeScanner = scannerModule.resume;
 
+export const toggleFlashOn = scannerModule.toggleFlashOn;
+export const toggleFlashOff = scannerModule.toggleFlashOff;
+
 export default BarcodeScanner;
